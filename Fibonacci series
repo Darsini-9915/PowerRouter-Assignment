@@ -1,0 +1,24 @@
+package org.sample;
+
+import java.util.Scanner;
+
+public class  Fibonacciseries{
+ public static void main(String[] args) {
+	 Scanner s= new Scanner(System.in);
+	 System.out.println("Enter number of Fibonacci series numbers required");
+	 int n= s.nextInt();
+	 int f=0 , se =1;
+	 System.out.println("The Fibonacci series is: ");
+	 
+	 for(int i=0; i<n; i++) {
+		 System.out.println(f);
+		int next =f+se;
+		 f=se;
+		 se=next;
+	 }
+	 
+	 
+	 
+ }
+ 
+	}
